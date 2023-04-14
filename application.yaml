@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/Joyce232/argo-project
     targetRevision: HEAD
-    path: guestbook
+    path: k8s
   destination:
     server: https://kubernetes.default.svc
     namespace: nginx
